@@ -21,6 +21,6 @@ KiCad schematic:
 
 TinkerCAD ScreenShot:
 <img width="967" height="812" alt="4-bits Multipler- TinkerCad" src="https://github.com/user-attachments/assets/259a9b12-59a6-40ea-b001-22babe9c396d" />
-(Link : https://www.tinkercad.com/things/8aJpaM5xkOs-circuit-2-4-bits-multiplier/editel?returnTo=%2Fdashboard%2Fdesigns%2Fall&sharecode=3f-21gLYK2M-S15qBIMYsgP5KMQWjHWajRLjgb0d9mU&sharecode=o1yc99kICdYlpJEpme6rkqyLERkSQayLSnplTWFvZGw)
+Link : https://www.tinkercad.com/things/8aJpaM5xkOs-circuit-2-4-bits-multiplier/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=o1yc99kICdYlpJEpme6rkqyLERkSQayLSnplTWFvZGw
 
 
