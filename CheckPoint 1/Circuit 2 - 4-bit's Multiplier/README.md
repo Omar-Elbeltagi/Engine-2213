@@ -1,6 +1,8 @@
 Binary multiplication is a process of addition and shifting that mimics decimal long multiplication but uses only two digits, 0 and 1. The operation follows four simple rules: 0×0=0, 0×1=0, 1×0=0, and 1×1=1, meaning the product is 1 only when both inputs are 1.
 The circuit shown in the TinkerCad Picture is a 4-bit multiplier, designed based on this concept. Instead of directly multiplying numbers, the circuit generates partial products and then adds them together to produce the final result.
+
 <img width="967" height="812" alt="4-bits Multipler- TinkerCad" src="https://github.com/user-attachments/assets/9a3677a6-7a6c-4565-ab92-2e4c182e23f8" /> ( TinkerCad Picture )
+Link : https://www.tinkercad.com/things/8aJpaM5xkOs-circuit-2-4-bits-multiplier/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=o1yc99kICdYlpJEpme6rkqyLERkSQayLSnplTWFvZGw
 
 The process begins with the least significant bit (LSB) of the multiplier (B1). This bit is combined with each bit of the multiplicand (A4–A1) using AND gates that follow the basic multiplication rules, producing the first partial product. If B1= 1, the multiplicand passes through; if B1 = 0, the result is all zeros. This truth table illustrates how the outputs change for different input combinations of A and B.
 
@@ -19,8 +21,6 @@ The outputs (S1, S2, S3, S4, S5, S6, S7, S8) represent the bits of the final res
 KiCad schematic:
 <img width="1072" height="749" alt="KICad Screenshot" src="https://github.com/user-attachments/assets/2b6fb653-326a-4a58-9508-6f4b863bbd33" />
 
-TinkerCAD ScreenShot:
-<img width="967" height="812" alt="4-bits Multipler- TinkerCad" src="https://github.com/user-attachments/assets/259a9b12-59a6-40ea-b001-22babe9c396d" />
-Link : https://www.tinkercad.com/things/8aJpaM5xkOs-circuit-2-4-bits-multiplier/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard%2Fdesigns%2Fall&sharecode=o1yc99kICdYlpJEpme6rkqyLERkSQayLSnplTWFvZGw
+
 
 
