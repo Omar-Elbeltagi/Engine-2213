@@ -5,3 +5,4 @@ The circuit mainly relies on 2-to-1 MUXes to implement the 2’s complement logi
 The overflow logic in this circuit is implemented using a 4-to-1 MUX instead of standard AND/OR gate combinations. Since overflow depends on the relationship between the most significant bits (A4, B4, and S4), the MUX uses these signals as select lines to determine when overflow occurs. Based on the selected condition, the MUX outputs a signal indicating whether an overflow has happened.
 
 Using this design, the circuit can correctly detect overflow for both addition and subtraction while keeping the implementation more compact and modular. This approach reduces the number of logic gates needed and shows how MUXes can be used to implement both arithmetic operations and logic conditions in a single circuit.
+https://circuitverse.org/simulator/edit/circuit-1-mux-adder-amp-subtraction-5555f77a-672c-4850-979a-ed0bbcf650e3
