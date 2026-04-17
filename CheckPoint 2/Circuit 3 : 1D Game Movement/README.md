@@ -1,1 +1,1 @@
-
+This circuit is a possible component for the Pac-Man project, using a PIPO shift register, adder, and comparator to move positions by ±1. A push button controls movement, while a switch selects direction (left or right). The comparator checks for border collisions (positions 0 and 9). However, the circuit did not work as expected. The movement was inconsistent, and issues with the clear, set, and reset pins caused wrong starting points, leading to incorrect position updates and unreliable overall behavior.
