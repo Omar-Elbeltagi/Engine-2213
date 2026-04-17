@@ -1,1 +1,7 @@
+This circuit shows a decoder-based comparator that can be used to detect when two values are equal. Instead of using a traditional comparator chip, this design uses a decoder and logic gates to determine if two inputs match. This makes it a useful option for our Pac-Man project, especially for detecting collisions between Pac-Man and ghosts or obstacles on the grid.
 
+The circuit mainly relies on a 3-to-8 decoder to convert one of the input values into a one-hot output, meaning only one output line is active at a time. The second value is then compared against this output using an AND gate, which checks if both inputs correspond to the same position. If they match, the AND gate outputs a 1, indicating that the two values are equal.
+
+After that, the signal passes through an OR gate, which helps separate the result into either “same” or “different.” If the output is 1, it means the positions are the same, and if it is 0, the positions are different.
+
+In the context of the Pac-Man project, this circuit can be used as a collision detection system. For example, if Pac-Man’s position matches a ghost or obstacle position, the circuit will output a signal that can stop movement or trigger a “game over.” Additionally, by expanding this idea and using a ROM, we can store obstacle locations and check whether a move is valid or blocked. This makes the circuit a simple but effective way to manage movement and collisions in the game.
